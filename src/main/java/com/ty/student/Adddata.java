@@ -13,7 +13,7 @@ public class Adddata {
 		String username = "postgres";
 		String password = "123";
 		try {
-
+// to load driver class
 			Class.forName("org.postgresql.Driver");
 
 			Connection con = DriverManager.getConnection(url, username, password);
